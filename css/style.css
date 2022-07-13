@@ -1,0 +1,134 @@
+/* Corpo */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Cabeçalho */
+
+.cabecalho{
+    flex-basis: 30%;
+    margin-top: 20px;
+}
+
+.cabecalho__logo{
+    margin-bottom: 50px;
+}
+
+.cabecalho__logo figcaption{
+    display: none;
+}
+
+.cabecalho__menuItem{
+    margin-bottom: 25px;
+}
+
+.cabecalho__menuItem img{
+    max-width: 26px;
+}
+
+.cabecalho__menuItem a{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: top;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.cabecalho__menuItem a:hover{
+    color:#1DA1F2;
+}
+
+/* Conteúdo Principal */
+
+.conteudoPrincipal{
+    flex-basis: 70%;
+    border-left: 1px solid #E7ECF0;
+    border-right: 1px solid #E7ECF0;
+    margin-top: 20px;
+}
+
+.conteudoPrincipal__titulo{
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.conteudoPrincipal__formulario{
+    padding: 10px 30px;
+    border-top: 1px solid #E7ECF0;
+    border-bottom: 10px solid #E7ECF0;
+    text-align: right;
+}
+
+.conteudoPrincipal__formulario textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 55px;
+    font-weight: 400;
+}
+
+.conteudoPrincipal__formulario button{
+    background-color: #1da0f2cc;
+    border: none;
+    padding: 8px 20px;
+    color: #FFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.conteudoPrincipal__formulario button:hover{
+    background-color: #1DA1F2;
+}
+
+.conteudoPrincipal__listaTweets{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+
+.conteudoPrincipal__tweet{
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #E7ECF0;
+}
+
+.tweet__fotoPerfil{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.tweet__conteudo{
+    margin-left: 15px;
+}
+
+.tweet__conteudo h2{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.tweet__conteudo span{
+    /* display: inline-block; */
+    color: #828282;
+    margin-left: 5px;
+}
+
+.tweet__conteudo p{
+    margin-top: 15px;
+    color: #131313;
+}
+
+#profilePicture{
+    border-radius: 15px;
+}
